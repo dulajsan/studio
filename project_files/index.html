@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Space Turn</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/home.css"/>
+ <script src="js/jquery-2.0.3.min.js"></script>
+ <script>
+     $(document).ready(function(){
+      $('.pk').hover(function(){
+         
+          $('#pkg_sub').css("display","block");
+      },
+      function()
+      {
+        $('#pkg_sub').css("display","none");   
+      }
+              ); 
+      
+      $('.bx_img1').hover(function (){
+          $('.bx_img1').css("opacity","1");
+              
+    });
+     $('.bx_img2').hover(function (){
+          $('.bx_img2').css("opacity","1");
+              
+    });
+     $('.bx_img3').hover(function (){
+          $('.bx_img3').css("opacity","1");
+              
+    });
+     });
+     
+ </script>
+        <script src="js/aslider.js"></script>
+        <style type="text/css">
+            .aslide {
+                display: none;
+				width:100%;
+				height:500px;
+            }
+           .content .outer_slider .aslide img {
+                width: 100%;                
+            }
+            #slider {
+                width: 100%;
+                height: 500px;
+            }
+            .aslide .text {
+                width: 200px;
+                margin: 0 auto;
+                color: #f8f8f8;
+                text-shadow: 0 0 2px #000;
+                font-weight: bold;
+                font-size: 36px;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 30px;
+                font-family: sans-serif;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="header_outer">
+<div class="header">
+    <img src="img/index_03.jpg" class="logo" alt="logo"/>
+</div>
+    </div>
+    <div class="header_blank"></div>
+  <div class="menu">
+     
+    <ul class="ul_cls ">
+        <li class="li_cls "><img src="img/small_logo.PNG" style="float: left" class="small_logo"/></li>
+        <li class="li_cls cls_home"><a href="index.html">Home</a></li>
+        <li class="li_cls"><a href="aboutus.php">About us</a></li>
+    <li class="li_cls"><a href="recent.php">Recent hired</a></li>
+    <li class="pk li_cls" ><a href="#">Booking</a>
+        <ul class="dp_down">
+            <li><a href="package.php?studio_id=1">Main Studio</a></li>
+      <li><a href="package.php?studio_id=2">Mini Studio</a></li>
+  </ul> 
+    </li>
+    <li class="li_cls"><a href="contactus.php">Contact us</a></li>
+    
+    <li class="li_cls"><a href="#">Register</a>
+        <ul class="dp_down">
+            <li><a href="signin.php">Sign In</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
+            <li></li>
+        </ul>
+    
+    </li>
+      
+</ul>
+</div>
+<div class="content">
+  <div class="outer_slider">
+       <div id="slider" class="aslider" data-duration="10" data-hide-controls>
+            <div class="aslide" data-duration="4" data-audio="assets/audio/Acoustic-Josh-10248_hifi.mp3" data-audio-loop>
+                <img src="img/10175955_399687523516051_6852546537337696015_n.jpg"  />
+                <div class="text">HELLO</div>
+            </div>   
+            <div class="aslide" data-duration="5" data-audio="assets/audio/Country_-Adrien_G-8614_hifi.mp3">
+                <img src="img/10302455_399687466849390_3230662531641727858_n.jpg" />
+                <div class="text">THIS</div>
+            </div>   
+            <div class="aslide" data-duration="6" data-audio="assets/audio/Driving_-SpoonZ-9705_hifi.mp3">
+                <img src="img/10805744_399687540182716_6863562821655195160_n.jpg"   />
+                <div class="text">IS SOME</div>
+            </div>    
+            <div class="aslide" data-duration="7" data-audio="assets/audio/I_Wouldn-duh-8326_hifi.mp3">
+                <img src="img/1901166_312450995573038_873047372243432438_n.jpg"  />
+                <div class="text">CAPTION TEXT</div>
+            </div>            
+        </div>   
+  </div>
+  
+  <div class="recent_hired" >
+     <div class="topic">
+     <h3>RECENTLY HIRED</h3>
+     </div>
+     <div class="box_layout">
+           <div class="box">
+               <img src="img/10407028_395199700631500_1008217772317261528_n.jpg"  class="bx_img1" />
+           </div>
+           
+           <div class="box">
+               <img src="img/10600399_383393505145453_5776147450416233723_n.jpg" class="bx_img2" />
+           </div>
+           
+           <div class="box">
+               <img src="img/1901222_401502783334525_5615916369582031216_n.jpg" class="bx_img3" />
+           </div>
+     </div>
+     
+  </div>
+    
+    <div class="our_features" style="background: url(img/bg_top_img.jpg)">
+        <div class="features_content">
+            <div class="space_turn">
+                <h3>Main Studio</h3>
+                space Turn-first of its kind production facility in Sri Lanka launched in December 2012, brings a new dimension to your world of imagination
+                <br/>
+                <img src="img/1901166_312450995573038_873047372243432438_n.jpg" width="300px" height="250px"/>
+                <br/>
+                <a href="mainstudio" class="button">Read more..</a>
+            </div>
+            <div class="space_view">
+                <h3>Mini Studio</h3>
+                <p>space View- second studio now available for hire in space Turn.</p>
+                <br/>
+                <img src="img/10600399_383393505145453_5776147450416233723_n.jpg" width="300px" height="250px"/>
+                <br/>
+              <a href="#" class="button">Read more..</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="experiences" style="background: url(img/bg_img2.jpg)">
+        <div class="vf">
+        <div class="cont1">
+            <h2> Find us on Facebook</h2>
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSpaceTurn&amp;width=300&amp;height=340&amp;colorscheme=light&amp;
+                    show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; 
+                overflow:hidden; width:300px; height:340px;" allowTransparency="true">
+                        
+            </iframe>
+        </div>
+         <div class="cont2">
+             <h2>Experiences</h2>
+             <ul>
+                 <li>Action Photography shoots</li>
+                 hihihi
+                 <li>Vehicle Shoots</li>
+                 hhih
+                 <li>Furniture Shoots</li>
+                 hhihi
+                 <li>Video Shoots</li>
+                 ojofjert
+             </ul>
+        </div>
+         <div class="cont3">
+             <h2>What's New</h2>
+             <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSpaceTurn&amp;width=300&amp;height=340&amp;
+                     colorscheme=light&amp;show_faces=false&amp;header=true&amp;
+                     stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden;
+                 width:300px; height:340px;" allowTransparency="true">
+                         
+             </iframe>
+        </div>
+        </div>
+        
+    </div>
+
+</div>
+    <div class="footer" style="height: 350px">
+        <div class="footer_content">
+            <div class="fot_top">
+                <h2>Subscribe to our news letters</h2><input type="text" placeholder="Enter Your Email Address"/><button>Subscribe</button>
+            </div>
+            <div class="fot_bottom">
+                <div class="fot_box">
+                    <h3>Company</h3>
+                    <p>defre</p>
+                    <p>defre</p>
+                    <p>defre</p>
+                    
+                    
+                </div>
+                <div class="fot_box">
+                    <h3>Support</h3>
+                    <p>defre</p>
+                    <p>defre</p>
+                    <p>defre</p>
+                     
+                </div>
+                <div class="fot_box">
+                    <h3>Connect</h3> 
+                    <p><img src="img/social/rss_1.gif"/></p>
+                    <p><img src="img/social/rss_2.gif"/></p>
+                    <p><img src="img/social/rss_3.gif"/></p>
+                    <p><img src="img/social/rss_4.gif"/></p>
+                </div>
+                
+            </div>
+            
+            
+           
+        </div>
+        
+        
+    </div>
+
+<div class="copyright">
+   Copyright &copy 2015 ----All Rights Reserved;
+            </div>
+
+</body>
+</html>

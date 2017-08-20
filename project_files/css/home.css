@@ -1,0 +1,140 @@
+
+/* 
+    Created on : Dec 14, 2014, 11:08:13 AM
+    Author     : Dulaj
+*/
+
+.content
+{
+	//width:100%;
+	margin:0px;
+       
+}
+
+.slider_image
+{
+	width:100%;
+}
+
+.outer_slider
+{
+	width:100%;
+	height:500px;
+}
+.header_outer
+{
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: #999999 1px 1px 5px 1px;
+    z-index: 999;
+}
+.header_blank{
+    height: 172px;
+    width: 100%;
+}
+
+
+.box_layout
+{
+	width:100%;
+	height:405px;
+	//background-color:#9C3;
+}
+
+.box{
+	width:300px;
+	height:300px;
+	//background-color:#333;
+	margin-left:33px;
+	float:left;
+}
+
+
+.our_features{
+   
+    width: 100%;
+    margin: 0px;
+    height: 500px;
+   // background-color: #ff0033;
+}
+
+.features_content{
+    width: 1100px;
+    margin: 0px auto;
+    height: 500px;
+   // background-color: #0033ff;
+   color: #ffffff;
+    
+}
+
+.space_turn,.space_view
+{
+    float: left;
+    width: 50%;
+    height: 450px;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.space_turn,.space_view h3{
+    text-align: center;
+}
+
+
+
+.experiences
+{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    //background: url(img/bg_img2.jpg);
+   // background-color:#33ff33;
+    
+}
+
+.button
+{
+    display: inline-block;
+color: rgb(255, 255, 255);
+line-height: 28px;
+text-decoration: none;
+padding: 0 14px;
+background: rgb(19, 197, 255);
+margin-top: 22px;
+}
+
+.vf
+{
+    width: 1100px;
+    margin: 0px auto;
+    //background-color:activecaption;
+    height: 500px;
+}
+
+.cont1,.cont2,.cont3
+{
+    float: left;
+    //background-color: #ff0000;
+    width: 366px;
+    height: 450px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.cont1,.cont2
+{
+    border-right: #cccccc solid thin;
+}
+
+.bx_img1,.bx_img2,.bx_img3
+{
+    width:300px;
+    height: 300px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2015, 5:46:00 PM
+    Author     : Dulaj
+*/
+
+
+.content2{
+                margin: 12px auto;
+                width: 1100px;
+                height: 400px;
+            }
+            .con_left{
+                background-color: rgb(244, 245, 247);
+                width: 40%;
+                height: 400px;
+                float: left;
+            }
+            .con_right
+            {
+                float: left;
+                width: 55%;
+                padding-left: 5%;
+               // background-color:#009900;
+            }
+            .bx{
+                width: 100%;
+                height: 70px;
+                margin-top: 12px;
+               // background-color: #000;
+            }
+            .bx_big{
+                width: 100%;
+                height: 170px;
+                margin-top: 12px;
+                 //background-color: #000;
+            }
+            .conta_bx{
+                padding: 15px 2px;
+                width:90%;
+                border-radius: 6px;
+                
+            }
+            .conta_bx_big{
+                //height: 165px;
+                 padding: 15px 2px;
+                 width: 90%;
+                 border-radius: 6px;
+            }
+            .conta_submit
+            {
+                padding: 15px 2px;
+                width: 80px;background-color: #999999;
+                color: #ffffff;
+                border-radius: 5px;
+            }
+            
+            .path_blank img
+            {
+                display: none;
+            }
+            
+
+            
+            
+            @media screen and (max-width:1100px) and (min-width:768px)
+            {
+                
+                .content2
+                {
+                  width: 748px;  
+                }
+                
+                .con_left
+                {
+                    width: 400px;
+                    
+                    
+                }
+                .path_blank img
+                {
+                    display: none;
+                }
+                
+                .con_right
+                {
+                    width: 300px;
+                    
+                }
+                .bx{
+                    width: 300px;
+                }
+                
+                .bx_big
+                {
+                    width: 300px;
+                }
+               
+                
+                
+                
+                
+            }
+            
+            @media screen and (max-width:768px) and (min-width:320px)
+            {
+                
+                .content2
+                {
+                    width: 300px;
+                    height: auto;
+                    
+                }
+                
+                .con_left
+                {
+                    width: 270px;
+                    height: 300px;
+                }
+                .con_right
+                {
+                    width: 270px;
+                }
+                
+                .con_left,.con_right
+                {
+                    float: none;
+                }
+                .bx{
+                    width: 270px;
+                }
+                
+                .bx_big{
+                    width: 270px;
+                }
+                
+                .conta_bx_big
+                {
+                    width: 220px;
+                }
+                
+                .conta_submit{
+                    width: 220px;
+                }
+                
+                .conta_bx
+                {
+                    width: 220px;
+                }
+                .path_blank img
+                {
+                    display: block;
+                }
+                
+                
+            }
+            
+            
+       @media screen and (max-width:320px)
+       {
+           
+           .content2
+                {
+                    width: 200px;
+                    height: auto;
+                    
+                }
+                
+                .con_left
+                {
+                    width: 170px;
+                    height: 200px;
+                }
+                .con_right
+                {
+                    width: 170px;
+                }
+                
+                .con_left,.con_right
+                {
+                    float: none;
+                }
+                .bx{
+                    width: 170px;
+                }
+                
+                .bx_big{
+                    width: 170px;
+                }
+                
+                .conta_bx_big
+                {
+                    width: 120px;
+                }
+                
+                .conta_submit{
+                    width: 120px;
+                    padding: 10px 2px;
+                }
+                
+                .conta_bx
+                {
+                    width: 120px;
+                    padding: 10px 2px;
+                }
+                .path_blank img
+                {
+                    display: block;
+                }
+                 
+                
+           
+           
+           
+           
+       }

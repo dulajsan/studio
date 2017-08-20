@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+{
+	margin:0px;
+	padding:0px;
+	//width:100%;
+        background: #f8f8f8;
+}
+.image
+{
+width :300px;
+hetght:220px;
+}
